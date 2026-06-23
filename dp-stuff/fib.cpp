@@ -97,7 +97,7 @@ void measureTime(string name, Func func, int n) {
 }
 
 int main() {
-    int n = 90;
+    int n = 60;
 
     measureTime("Regular recursion", regular_nthFibonacci, n);
     measureTime("Memoization", memoization_nthFibonacci, n);
